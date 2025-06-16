@@ -1,3 +1,5 @@
+https://www.kaggle.com/datasets/thoughtvector/customer-support-on-twitter/code
+
 Content
 
 The dataset is a CSV, where each row is a tweet. The different columns are described below. Every conversation included has at least one request from a consumer and at least one response from a company. Which user IDs are company user IDs can be calculated using the inbound field.
@@ -40,3 +42,9 @@ service	    客服响应慢、客服态度差等
 pricing	    价格争议、不一致
 legal	    版权、虚假宣传、数据泄露、违法行为
 other	    非风险内容、正常咨询、闲聊等
+other_chitchat 普通闲聊/打招呼，如 hello、good night
+other_general_question 普通问题咨询，无风险，如 what is your name?
+other_language_issues 语言翻译请求或非英文内容
+other_spam_or_junk 垃圾信息、诱导关注/点击
+other_incomplete_or_unclear 不完整或难以理解的信息，如 ‘???’ 或 ‘idk’
+other_uncategorized 无法明确分类的普通内容
