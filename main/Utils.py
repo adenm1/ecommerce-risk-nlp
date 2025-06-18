@@ -1,18 +1,28 @@
+"""
+Author: Architect Lieu
+"""
 from enum import Enum
 
 
 class RiskLabel(Enum):
 
-    """Label & Weight"""
+    """
+    Label with Priority for Classification <br>
+    Label with Weight for LR
+    """
 
-    TECHNICAL = 1
-    PAYMENT = 2
-    DELIVERY = 3
-    ACCOUNT = 4
-    SERVICE = 5
-    PRICING = 6
-    LEGAL = 7
-    OTHER = 0
+    LEGAL = (1, 0.95)
+    ACCOUNT = (2, 0.85)
+    PAYMENT = (3, 0.8)
+    TECHNICAL = (4, 0.75)
+    DELIVERY = (5, 0.6)
+    SERVICE = (6, 0.5)
+    PRICING = (7, 0.4)
+    OTHER = (99, 0)
+
+    def __init__(self, priority, weight):
+        self.priority = priority
+        self.weight = weight
 
 
 def auto_label_by_keywords(
@@ -93,15 +103,27 @@ keywords_account = [
 keywords_service = [
     'rude',
     'customer service',
-    'support', 'no response',
+    'support',
+    'no response',
     'unhelpful',
     'agent'
 ]
 
 keywords_pricing = [
-    'expensive', 'price', 'cost', 'overcharged', 'discount', 'price error'
+    'expensive',
+    'price',
+    'cost',
+    'overcharged',
+    'discount',
+    'price error'
 ]
 
 keywords_legal = [
-    'scam', 'fraud', 'policy', 'privacy', 'misleading', 'illegal', 'terms violation'
+    'scam',
+    'fraud',
+    'policy',
+    'privacy',
+    'misleading',
+    'illegal',
+    'terms violation'
 ]
