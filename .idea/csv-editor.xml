@@ -10,13 +10,6 @@
             </Attribute>
           </value>
         </entry>
-        <entry key="/assets/labeled_L2__2_delivery.csv">
-          <value>
-            <Attribute>
-              <option name="separator" value="," />
-            </Attribute>
-          </value>
-        </entry>
         <entry key="/assets/labeled_L2__2_payment.csv">
           <value>
             <Attribute>
@@ -46,62 +39,6 @@
           </value>
         </entry>
         <entry key="/assets/labeled_L2__7_legal.csv">
-          <value>
-            <Attribute>
-              <option name="separator" value="," />
-            </Attribute>
-          </value>
-        </entry>
-        <entry key="/data/sample.csv">
-          <value>
-            <Attribute>
-              <option name="separator" value="," />
-            </Attribute>
-          </value>
-        </entry>
-        <entry key="/labels/200_clean_sample_for_UNLABALED.csv">
-          <value>
-            <Attribute>
-              <option name="separator" value="," />
-            </Attribute>
-          </value>
-        </entry>
-        <entry key="/labels/auto_labeled_sample_GPT.csv">
-          <value>
-            <Attribute>
-              <option name="separator" value="," />
-            </Attribute>
-          </value>
-        </entry>
-        <entry key="/labels/labeled_200_dataset.csv">
-          <value>
-            <Attribute>
-              <option name="separator" value="," />
-            </Attribute>
-          </value>
-        </entry>
-        <entry key="/labels/labeled_sample.csv">
-          <value>
-            <Attribute>
-              <option name="separator" value="," />
-            </Attribute>
-          </value>
-        </entry>
-        <entry key="/labels/labeled_sample_.csv">
-          <value>
-            <Attribute>
-              <option name="separator" value="," />
-            </Attribute>
-          </value>
-        </entry>
-        <entry key="/labels/数据量太少clean_sample_for_labeling.csv">
-          <value>
-            <Attribute>
-              <option name="separator" value="," />
-            </Attribute>
-          </value>
-        </entry>
-        <entry key="/main/labeled_L2__sample_enum.csv">
           <value>
             <Attribute>
               <option name="separator" value="," />
