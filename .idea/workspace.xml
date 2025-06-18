@@ -5,34 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ce0ab13b-3672-4565-add0-a13df36096d1" name="Changes" comment="Merge remote-tracking branch 'origin/main'&#10;&#10;# Conflicts:&#10;#&#9;labels/.DS_Store">
-      <change afterPath="$PROJECT_DIR$/.idea/csv-editor.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LICENSE.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TODO.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/auto_labeled_sample_GPT.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/main/Utils.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/main/model/AutoRandomSampling.ipynb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/main/model/ReverseCategory2DataLabeling.ipynb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/main/model/RiskClassificationByXGBoost.ipynb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/main/visualization/RiskClassificationReport.ipynb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/labels/200_clean_sample_for_UNLABALED.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/labels/labeled_200_dataset.csv" beforeDir="false" afterPath="$PROJECT_DIR$/assets/@Deprecated labeled_200_dataset.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/labels/labeled_sample.csv" beforeDir="false" afterPath="$PROJECT_DIR$/assets/labeled_sample.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/labels/labeled_sample_.csv" beforeDir="false" afterPath="$PROJECT_DIR$/assets/labeled_sample_200.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/labels/数据量太少clean_sample_for_labeling.csv" beforeDir="false" afterPath="$PROJECT_DIR$/assets/@Deprecated 数据量太少clean_sample_for_labeling.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/readme.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/risk_dection_cleaned_1.1.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/main/model/risk_dection_cleaned_1.1.ipynb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/risk_detection_MLX_FAILED.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/main/model/risk_detection_MLX_FAILED.ipynb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/risk_detection_transformer.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/main/model/risk_detection_XGBoost.ipynb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/train_xgb.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/utils.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/csv-editor.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,16 +25,16 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "git-widget-placeholder": "Merging main",
-    "last_opened_file_path": "/Users/Matthew/git/ecommerce-risk-nlp/labels",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/Matthew/git/ecommerce-risk-nlp/labels&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/labels" />
@@ -84,6 +59,8 @@
       <option name="presentableId" value="Default" />
       <updated>1750203700219</updated>
       <workItem from="1750203701291" duration="2847000" />
+      <workItem from="1750251916612" duration="315000" />
+      <workItem from="1750260389547" duration="275000" />
     </task>
     <servers />
   </component>
