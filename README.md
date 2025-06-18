@@ -36,7 +36,20 @@ in_response_to_tweet_id
 
 ID of the tweet this tweet is in response to, if any.
 
-“标签：csv label”
+## Labeling Keywords
+
+| 标签        | 关键词示例   ｜                                           |
+|-----------|-----------------------------------------------------|
+| technical | bug, issue, problem, error, app, crash, support     |
+| payment   | charge, refund, billing, payment, money, card       |
+| delivery  | shipping, delivery, not arrived, late, order        |
+| account   | login, locked, password, access, reset              |
+| service   | customer service, rude, slow response, support team |
+| pricing   | price, expensive, charged, discount, cost           |
+| legal     | policy, terms, scam, privacy, legal, misleading     |
+
+
+## Category of Risk
 
 | category of risk            | description                     |
 |-----------------------------|---------------------------------|
@@ -55,3 +68,12 @@ ID of the tweet this tweet is in response to, if any.
 | other_incomplete_or_unclear | 不完整或难以理解的信息，如 ‘???’ 或 ‘idk’     |
 | other_uncategorized         | 无法明确分类的普通内容                     |
 
+## Labeling Sample
+
+| seq | text                                                                                                                                                         | label     |
+|-----|--------------------------------------------------------------------------------------------------------------------------------------------------------------|-----------|
+| 74  | @116062: will you create a “disaster registry” where fire victims can pick the items they need and anyone can fill them? Offer discounts?                    | pricing   |
+| 75  | "@AppleSupport Freezing basically all of the time. Apps are messing up, if i turn on airplane mode and then turn it off i can’t get service without restart" | technical |
+| 76  | @VirginTrains I’ve lost my tkt back to Wilmslow. I’ve got receipt and it’s on my app but your staff tell me too bad. Surely not right??                      | technical |
+| 77  | @AmazonHelp I ordered a package to be delivered tomorrow but I’ve had a notification saying it’ll be a day late now                                          | delivery  |
+| 78  | "@AmazonHelp prime membership says it’s suspended, updated payment method but still says it’s suspended? How do I fix it to get Prime back?"                 | payment   |
