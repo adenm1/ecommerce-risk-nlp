@@ -5,3 +5,4 @@ __pycache__/
 /data/
 /assets/
 /datasets/
+.DS_Store
