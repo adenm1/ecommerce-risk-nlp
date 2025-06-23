@@ -2,7 +2,5 @@
 .idea/
 __pycache__/
 .ipynb_checkpoints/
-/data/
-/assets/
-/datasets/
-.DS_Store
+/architecture/assets/
+/architecture/datasets/
