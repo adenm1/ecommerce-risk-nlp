@@ -1,7 +1,7 @@
-/datasets/
 .DS_Store
 .idea/
 __pycache__/
 .ipynb_checkpoints/
-/data/sample.csv
-/data/twcs.csv
+/data/
+/assets/
+/datasets/
