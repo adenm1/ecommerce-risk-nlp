@@ -1,8 +1,8 @@
 """
 Author: Architect Lieu
 """
-import pickle
 from enum import Enum
+import pickle
 import pandas as pd
 
 # pip install jupyterthemes
